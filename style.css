@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #dc3545;
+}
+
+h1 {
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#title {
+    font-size: 1.5em;
+    font-family: serif;
+    font-style: normal;
+}
+
+#register {
+    font-size: 0.8rem;
+    vertical-align: super;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    width: 700px;
+    
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: white;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 8rem;
+}
